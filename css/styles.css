@@ -1,0 +1,65 @@
+
+    /* import all sub-css files */
+
+    @import "header.css";
+    @import "sections.css";
+    @import "mediaQ.css";
+
+
+
+
+
+
+    /* html style */
+
+    html {
+        
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        margin: 1em;
+        
+    
+    
+    
+    }
+
+    /* body style */
+    body{
+    
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        background-color: #eff5eb;
+
+    }
+
+    /* defining container as grid */
+
+    #container {
+        display: grid;
+
+        
+    }
+
+
+
+    /* footer style */
+
+
+    footer{
+
+        text-align: center;
+        background-color: #5f6d8a;
+        color: #fcffff;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+
+    
+

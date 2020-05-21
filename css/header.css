@@ -1,0 +1,52 @@
+
+    /* style ul as flex */
+
+
+    header nav ul {
+        display: flex;
+        list-style: none;
+        position: fixed;
+        left: 2em;
+        top: 0px;
+        list-style: none;
+        padding-bottom: 10px;
+        text-align: center;
+        
+    
+    }
+
+
+
+    header nav ul li {
+        font-size: 1.8em;
+        margin-right: 5em;
+        z-index: 1;
+        
+    }
+
+
+    header nav ul li a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    /* color white if it is hovered */
+
+
+    header nav ul li a:hover {
+        color: #fff;
+    text-shadow: 0px 3px 3px 0px #daf5f5;
+    
+    }
+
+
+
+    /* style header h1*/
+    header h1 {
+    text-align: center;
+    font-size: 3em;
+    color: gray;
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+    }
+

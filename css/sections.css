@@ -1,0 +1,209 @@
+
+
+    /* each section has margin-top */
+
+    section{
+        margin-top: 20px;
+        box-shadow: 0px 7px 7px 0px #dff2f2;
+        min-height: 70vh;
+    }
+
+    .active-class {
+        border: 1px solid red;
+        box-shadow: 0px 10px 10px 0px #dff2f2;
+    }
+
+
+
+    section h3 {
+        text-align: center;
+        font-size: 2.3em;
+        text-decoration: underline #dce5f7;
+        letter-spacing: 1px;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+
+
+    /* first section with background img */
+
+    #sec1 {
+    display: grid;
+    background-image: url(../picAlbum/bus.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    opacity: 0.7;
+    z-index: -1;
+
+    }
+
+
+    .tour-para {
+    text-align: center;
+    font-size: 1.9em;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+    padding: 5px;
+
+    }
+
+
+
+    /* define second section as grid */
+
+    #sec2 {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 200px 1fr;
+    
+    }
+
+
+    /* define items of second section as flex */
+    #sec2 .price-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    
+    }
+
+    #sec2 .price-item .p-item {
+    background-color: cyan;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
+    
+
+    
+
+    }
+    /* define day and week price  */
+    .price {
+        font-size: 2em;
+    }
+
+
+
+
+    /* define third section as grid  */
+
+    #sec3 {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 200px 1fr;
+    
+
+    }
+
+    /* define items of third section as flex */
+
+    #sec3 .review-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+        
+
+    }
+    #sec3 .review-item figure {
+    text-align: center;
+    }
+
+
+
+
+    #sec3 .review-item img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+    
+    
+        }
+
+    .rating i {
+    font-size: 2em;
+    color: #f5ed05;
+    }
+    .rating span {
+        font-size: 2em;
+    }
+
+
+
+
+    /* define forth section as grid */
+
+    #sec4 {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 150px  1fr;
+    
+
+    }
+
+    /* divide into two rows */
+
+    #sec4 .buy-ticket{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows:100px 1fr;
+        text-align: center;
+    
+        
+
+    }
+    .buy-ticket .buy-item1 {
+    font-size: 1em;
+    }
+    .buy-item1 form label {
+        font-size: 1.5em;
+    }
+
+
+    .buy-item1 input {
+        padding: 1em 2em;
+        border: 1px solid blue;
+        margin-bottom: 10px;
+
+
+    }
+
+    .buy-item1 form button  {
+        background-color: #0559f5;
+        padding: 1em;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    .buy-item1 form button:hover{
+        color: #fff;
+    }
+
+
+
+
+
+    /* define second row of forth section as flex */
+
+    #sec4 .buy-ticket .buy-item2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1em ;
+        font-size: 1.5em;
+        
+    }
+
+    .buy-item2 i {
+    font-size: 3em;
+    color: #8baef0;
+    
+    
+    
+    }
+    .buy-item2 i:hover {
+        color: #0f5df2;
+    }
