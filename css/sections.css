@@ -3,7 +3,6 @@
     /* each section has margin-top */
 
     section{
-        margin-top: 20px;
         box-shadow: 0px 7px 7px 0px #dff2f2;
         min-height: 70vh;
     }
@@ -11,6 +10,7 @@
     .active-class {
         border: 1px solid red;
         box-shadow: 0px 10px 10px 0px #dff2f2;
+        border-radius: 5px;
     }
 
 
@@ -125,11 +125,11 @@
         }
 
     .rating i {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #f5ed05;
     }
     .rating span {
-        font-size: 2em;
+        font-size: 1.9em;
     }
 
 
